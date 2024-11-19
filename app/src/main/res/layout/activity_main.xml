@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202454"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imvMain"
+        android:layout_width="300dp"
+        android:layout_height="290dp"
+        android:src="@drawable/bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/btnBoCap"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bocap"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnSongNgu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/songngu1"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnBachDuong"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/bachduong"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnKimNguu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kimnguu"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="94"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnSongTu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/songtu"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="125"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnCuGiai"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cugiai"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="115dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnSuTu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/sutu"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="178"
+        app:layout_constraintCircleRadius="110dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnXuNu"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/xunu"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="205"
+        app:layout_constraintCircleRadius="115dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnThienBinh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/thienbinh"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="235"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <ImageView
+        android:id="@+id/btnBaoBinh"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baobinh"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="268"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnNhanMa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/nhanma"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="303"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/btnMaKet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/maket"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="120dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imgLoGo"
+        android:layout_width="280dp"
+        android:layout_height="100dp"
+        android:src="@drawable/z5988469980781_c0bed8f2daf6b5f87af5c3c38aaa6514"
+        app:layout_constraintCircle="@id/imvMain"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="220dp"
+        tools:ignore="MissingConstraints" />
+
+    <ScrollView
+        android:id="@+id/txtContent"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_scroll"
+        android:padding="12dp"
+        app:layout_constraintTop_toBottomOf="@id/imgLoGo">
+
+        <TextView
+            android:id="@+id/txtPreView"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:paddingTop="16dp"
+            android:text="@string/bo_cap_text"
+            android:textColor="@color/white" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnXemThem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="xem thêm"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@id/txtContent"
+        app:layout_constraintEnd_toEndOf="@id/txtContent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="@id/txtContent"
+        app:layout_constraintTop_toTopOf="@id/txtContent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/txtSrc"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/xanh"
+        app:layout_constraintTop_toTopOf="@id/txtContent" />
+
+    <ImageView
+        android:id="@+id/srcPreView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/bocap"
+        app:layout_constraintBottom_toBottomOf="@id/txtSrc"
+        app:layout_constraintEnd_toEndOf="@id/txtSrc"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="@id/txtSrc"
+        app:layout_constraintTop_toTopOf="@id/txtSrc"
+        app:layout_constraintVertical_bias="1" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bo_cap_title2"
+        android:textColor="@color/vang"
+        app:layout_constraintEnd_toEndOf="@id/txtSrc"
+        app:layout_constraintStart_toStartOf="@id/txtSrc"
+        app:layout_constraintTop_toTopOf="@id/txtSrc" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
